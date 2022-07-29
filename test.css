@@ -9,6 +9,7 @@
 
 .sub-container {
     background-color: #0D98BA;
+    border-radius: 15px;
     color: white;
     padding: 20px;
 }
@@ -22,6 +23,9 @@
    
     display: flex;
     justify-content: space-evenly;
+    margin-left: auto;
+    margin-right:auto;
+    
 
     
 }
@@ -32,7 +36,9 @@
 .main{                          /*Main Content*/
 width: 400px;
 border: solid;
+border-radius: 15px;
 padding: 10px;
+
 
 
 }
@@ -42,7 +48,9 @@ padding: 10px;
 .signup {                           /*Sign-Up*/
 width: 400px;
 border: solid;
+border-radius: 15px;
 padding: 10px;
+text-align:justify
 }
 
 
@@ -52,5 +60,12 @@ padding: 10px;
     display: flex;
     justify-content: space-between;
   }
+
+
+.sub-plans {
+    padding: 25px;
+}
+
+
 
   /*figure out how*/

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href = "test.css" rel = "stylesheet" type = "text/css">
+    <style>
+        .signup {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -52,19 +57,25 @@
         <h3>Signup now!</h3>
 
         <form action="/action_page.php">
-                <label for="fname">Full name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
+                <label for="fname"></label>
+                <input type="text" id="fname" name="fname" placeholder="Full Name"><br><br>
 
-                <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone"><br><br>
+                <label for="phone"></label>
+                <input type="text" id="phone" name="phone" placeholder="Phone"><br><br>
 
-                <label for="fname">Email:</label>
-                <input type="text" id="fname" name="fname"><br><br>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email"><br><br>
 
-                <label for="phone">Address:</label>
-                <input type="text" id="phone" name="phone"><br><br>
+                <label for="address"></label>
+                <input type="text" id="address" name="address" placeholder="Address"><br><br>
 
-                <input type="submit" value="Submit">
+                <button onclick="changeColor()">Submit</button>
+
+                <script>
+                    function changeColor() {
+                        document.querySelector()
+                    }
+                </script>
         </form>
         </div>
     </div>
@@ -74,7 +85,7 @@
 
     <div class = "plans">
         <!------------------------->
-        <div>
+        <div class = "sub-plans">
                 <h3>Your Main Advantage</h3>
                 <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus impedit quae eum repellat illum expedita mollitia excepturi magni, alias quo? Aut illum eius consectetur est magnam? Temporibus modi eius quod.
@@ -83,7 +94,7 @@
 
         <!------------------------->
 
-        <div>
+        <div class = "sub-plans">
             <h3>Special Offer</h3>
             <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus impedit quae eum repellat illum expedita mollitia excepturi magni, alias quo? Aut illum eius consectetur est magnam? Temporibus modi eius quod.
@@ -92,7 +103,7 @@
 
         <!------------------------->
 
-        <div>
+        <div class = "sub-plans">
             <h3>Tell Them Something About Your Business</h3>
             <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus impedit quae eum repellat illum expedita mollitia excepturi magni, alias quo? Aut illum eius consectetur est magnam? Temporibus modi eius quod.
